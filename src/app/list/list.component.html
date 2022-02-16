@@ -1,0 +1,12 @@
+<ul>
+    <li *ngFor="let president of presidents">
+        {{president}}
+    </li>
+    
+    <h2>second list with terms</h2>
+    <li *ngFor="let presidents of presidentsTerm">
+        {{presidents.name}},{{presidents.term}}
+    </li>
+
+</ul>
+
